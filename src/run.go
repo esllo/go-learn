@@ -2,6 +2,14 @@ package main
 
 import "fmt"
 
+func article(i int, f func()) {
+	println("================")
+	println("article", i)
+	println("----------------")
+	f()
+	println("\n================\n\n")
+}
+
 func article1_Print() {
 	print("Hello")
 	println(" world!")
@@ -25,6 +33,6 @@ func article2_FormattedPrint() {
 }
 
 func main() {
-	article1_Print()
-	article2_FormattedPrint()
+	article(1, article1_Print)
+	article(2, article2_FormattedPrint)
 }
