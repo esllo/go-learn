@@ -19,4 +19,5 @@ func main() {
 	printArticle(4, article.Article4_DataType)
 	printArticle(5, article.Article5_Conditional)
 	printArticle(6, article.Article6_Loop)
+	printArticle(7, article.Article_Function)
 }
