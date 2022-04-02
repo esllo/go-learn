@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-learn/src/article"
+	"go-learn/article"
 )
 
 func printArticle(i int, f func()) {
