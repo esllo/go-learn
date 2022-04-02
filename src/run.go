@@ -32,7 +32,19 @@ func article2_FormattedPrint() {
 	fmt.Printf("%v\n%+v\n%#v", data, data, data)
 }
 
+func article3_Variable() {
+	var numImplicit = 3
+	var numExplicit int32 = 3
+
+	fmt.Printf("Imp %d, Exp %d\n", numImplicit, numExplicit)
+
+	const numConstant = 3.14
+	const myaConstant = "먀"
+	fmt.Printf("NC %f, SC %s\n", numConstant, myaConstant)
+}
+
 func main() {
 	article(1, article1_Print)
 	article(2, article2_FormattedPrint)
+	article(3, article3_Variable)
 }
