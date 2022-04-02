@@ -20,4 +20,5 @@ func main() {
 	printArticle(5, article.Article5_Conditional)
 	printArticle(6, article.Article6_Loop)
 	printArticle(7, article.Article_Function)
+	printArticle(8, article.Article_AnonymousFunction)
 }
