@@ -1,5 +1,10 @@
 package main
 
+func article1_Print() {
+	print("Hello")
+	println(" world!")
+}
+
 func main() {
-	println("hello world")
+	article1_Print()
 }
