@@ -21,4 +21,5 @@ func main() {
 	printArticle(6, article.Article6_Loop)
 	printArticle(7, article.Article_Function)
 	printArticle(8, article.Article_AnonymousFunction)
+	printArticle(9, article.Article_Closure)
 }
