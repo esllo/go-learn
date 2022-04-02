@@ -135,10 +135,64 @@ func article5_Conditional() {
 	}
 }
 
+func article6_Loop() {
+	// for
+	for i := 0; i < 3; i++ {
+		print(i, " ")
+	}
+	println()
+
+	// for (like while)
+	i := 0
+	for i < 3 {
+		print(i, " ")
+		i++
+	}
+	println()
+
+	// for infinite
+	j := 0
+	for {
+		print(j, " ")
+		j++
+		if j == 3 {
+			break
+		}
+	}
+	println()
+
+	// for range (foreach)
+	scores := []int{90, 80, 70}
+	// _(underscore) is Blank Identifier
+	for _, score := range scores {
+		print(score, " ")
+	}
+	println()
+
+	// for continue, goto, break
+	nums := []int{1, 2, 3, 4, 5}
+LOOP:
+	for _, num := range nums {
+		if num == 2 {
+			continue
+		}
+		print(num, " ")
+		if num == 4 {
+			goto HERE
+		}
+		if num == 5 {
+			break LOOP
+		}
+	}
+HERE:
+	println("come HERE")
+}
+
 func main() {
 	article(1, article1_Print)
 	article(2, article2_FormattedPrint)
 	article(3, article3_Variable)
 	article(4, article4_DataType)
 	article(5, article5_Conditional)
+	article(6, article6_Loop)
 }
