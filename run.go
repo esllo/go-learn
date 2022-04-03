@@ -26,4 +26,5 @@ func main() {
 	printArticle(11, article.Article_Map)
 	printArticle(12, article.Article_Struct)
 	printArticle(13, article.Article_Method)
+	printArticle(14, article.Article_Interface)
 }
