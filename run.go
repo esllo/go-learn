@@ -24,4 +24,5 @@ func main() {
 	printArticle(9, article.Article_Closure)
 	printArticle(10, article.Article_Array)
 	printArticle(11, article.Article_Map)
+	printArticle(12, article.Article_Struct)
 }
