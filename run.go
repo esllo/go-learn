@@ -27,4 +27,5 @@ func main() {
 	printArticle(12, article.Article_Struct)
 	printArticle(13, article.Article_Method)
 	printArticle(14, article.Article_Interface)
+	printArticle(15, article.Article_Error)
 }
