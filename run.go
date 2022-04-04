@@ -9,5 +9,6 @@ func main() {
 	// article.PrintAllArticles()
 	// example.ExampleFile()
 	// example.ExampleRequest()
-	example.ExampleRequest()
+	// example.ExampleRequest()
+	example.ExampleEncoding()
 }
