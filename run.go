@@ -1,12 +1,13 @@
 package main
 
 import (
-	"go-learn/article"
+	"go-learn/example"
 )
 
 func main() {
 	// article count => article.GetArticleLength()
 	// print specific article => article.PrintArticle(articleNum int)
 	// print all article
-	article.PrintAllArticles()
+	// article.PrintAllArticles()
+	example.ExampleFile()
 }
