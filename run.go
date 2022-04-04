@@ -29,4 +29,5 @@ func main() {
 	printArticle(14, article.Article_Interface)
 	printArticle(15, article.Article_Error)
 	printArticle(16, article.Article_Panic)
+	printArticle(17, article.Article_Goroutine)
 }
