@@ -10,5 +10,6 @@ func main() {
 	// example.ExampleFile()
 	// example.ExampleRequest()
 	// example.ExampleRequest()
-	example.ExampleEncoding()
+	// example.ExampleEncoding()
+	example.ExampleDB()
 }
