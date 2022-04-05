@@ -12,5 +12,6 @@ func main() {
 	// example.ExampleRequest()
 	// example.ExampleEncoding()
 	// example.ExampleDB()
-	example.ExmapleDBAdvanced()
+	// example.ExmapleDBAdvanced()
+	example.ExampleHttp()
 }
