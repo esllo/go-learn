@@ -1,7 +1,5 @@
 package main
 
-import "go-learn/example"
-
 func main() {
 	// article count => article.GetArticleLength()
 	// print specific article => article.PrintArticle(articleNum int)
@@ -14,5 +12,5 @@ func main() {
 	// example.ExampleDB()
 	// example.ExmapleDBAdvanced()
 	// example.ExampleHttp()
-	example.ExampleLogging()
+	// example.ExampleLogging()
 }
