@@ -1,0 +1,1 @@
+INFO : 2022/04/06 D:/Workspace/go/first/example/logging.go:28: File log

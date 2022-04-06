@@ -1,0 +1,1 @@
+2022/04/06 09:53:50 D:/Workspace/go/first/example/logging.go:55: Multiple Log
